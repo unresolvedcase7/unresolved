@@ -5,15 +5,15 @@
 }
 @font-face {
   font-family: arabic;
-  src: url("/resources/arabic.ttf");
+  src: url("resources/arabic.ttf");
 }
 @font-face {
   font-family: english;
-  src: url("/resources/english.ttf");
+  src: url("resources/english.ttf");
 }
 @font-face {
   font-family: arabicbold;
-  src: url("/resources/Janna\ LT\ Bold.ttf");
+  src: url("resources/Janna\ LT\ Bold.ttf");
 }
 body {
   display: flex;
@@ -57,7 +57,7 @@ main {
 }
 .links p::before {
   content: " ";
-  background-image: url("/resources/arrow.png");
+  background-image: url("resources/arrow.png");
   width: 138px;
   display: block;
   height: 116px;
