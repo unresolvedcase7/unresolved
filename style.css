@@ -30,7 +30,7 @@ body {
 main {
   max-width: 500px;
   margin: 0 auto;
-  margin-top: 5em;
+  margin-top: 1em;
   padding: 2em 2em;
   overflow: hidden;
 }
@@ -39,11 +39,13 @@ main {
   margin-bottom: 0.3em;
   font-family: arabic;
   font-weight: normal;
-  font-size: 35px;
+  font-size: 40px;
 }
 .text p {
   font-weight: bolder;
   font-size: 18px;
+  line-height: 1.4;
+  padding: 0 1em;
   font-family: arabicbold;
 }
 
@@ -81,7 +83,7 @@ main {
   margin: 25px 0;
 }
 .buy {
-  margin-top: 3em;
+  margin-top: 1.5em;
   text-align: center;
   background-image: url("resources/red.png");
   background-size: 100%;
