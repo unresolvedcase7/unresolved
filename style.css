@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+@font-face {
+  font-family: arabic;
+  src: url("/resources/arabic.ttf");
+}
+@font-face {
+  font-family: english;
+  src: url("/resources/english.ttf");
+}
+@font-face {
+  font-family: arabicbold;
+  src: url("/resources/Janna\ LT\ Bold.ttf");
+}
+body {
+  display: flex;
+  flex-direction: column;
+  background-image: url("resources/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.logo {
+  margin-top: 60px;
+  text-align: center;
+}
+
+main {
+  max-width: 500px;
+  margin: 0 auto;
+  margin-top: 1.2em;
+  padding: 2em 2em;
+  overflow: hidden;
+}
+.text h1 {
+  transform: rotate(-2deg);
+  margin-bottom: 0.3em;
+  font-family: arabic;
+  font-weight: normal;
+  font-size: 40px;
+}
+.text p {
+  font-weight: bolder;
+  font-size: 21px;
+  font-family: arabicbold;
+}
+
+.links {
+  margin-top: 3em;
+  text-align: center;
+}
+.links p {
+  font-size: 24px;
+  position: relative;
+}
+.links p::before {
+  content: " ";
+  background-image: url("/resources/arrow.png");
+  width: 138px;
+  display: block;
+  height: 116px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  right: -45px;
+  top: -22px;
+}
+.links a {
+  display: block;
+  text-decoration: none;
+  font-family: english;
+  font-weight: bold;
+  background-color: black;
+  border: 1.5px solid white;
+  padding: 10px 0;
+}
+.links div {
+  border: 3px solid black;
+  margin: 25px 0;
+}
+.buy {
+  margin-top: 3em;
+  text-align: center;
+  background-image: url("resources/red.png");
+  background-size: 100%;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  transform: rotate(-3deg);
+  text-decoration: none;
+  font-size: 50px;
+  font-family: arabic;
+  font-weight: lighter;
+}
+
+.contact {
+  margin-top: 4em;
+  text-align: center;
+}
+.contact a {
+  text-decoration: none;
+}
